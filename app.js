@@ -23,7 +23,6 @@ UI.prototype.addBook = function (book) {
 UI.prototype.removeBook = function (target) {
     target.parentElement.parentElement.remove();
     return true;
-    
 }
 
 UI.prototype.showAlert = function (msg, className) {
@@ -48,7 +47,6 @@ UI.prototype.clearFields = function () {
 }
 
 document.getElementById('book-form').addEventListener('submit', function (e) {
-
     const title = document.getElementById('title').value,
         author = document.getElementById('author').value,
         isbn = document.getElementById('isbn').value;

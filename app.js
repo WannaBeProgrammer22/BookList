@@ -42,8 +42,8 @@ UI.prototype.showAlert = function (msg, className) {
 
 UI.prototype.clearFields = function () {
     document.getElementById('title').value = '';
-    author = document.getElementById('author').value = '';
-    isbn = document.getElementById('isbn').value = '';
+    document.getElementById('author').value = '';
+    document.getElementById('isbn').value = '';
 }
 
 document.getElementById('book-form').addEventListener('submit', function (e) {
